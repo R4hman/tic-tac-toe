@@ -1,0 +1,108 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #56b9ea;
+  overflow: hidden;
+}
+
+.select-box {
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+  /* display: none; */
+}
+
+.select-box h1 {
+  margin-top: 0;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.select-btn {
+  background-color: #56b9ea;
+  color: white;
+  border-radius: 5px;
+  padding: 14px;
+  font-size: 22px;
+  margin-top: 0.5rem;
+  display: inline-block;
+  margin-right: 1rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.select-btn:link {
+  transform: scale(1.1);
+  /* background-color: red; */
+}
+
+.game-container {
+  /* background-color: red;s */
+  width: 330px;
+  display: none;
+}
+
+.player-switching {
+  background-color: white;
+  padding: 15px 0 15px 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.switch {
+  font-size: 22px;
+  color: #56b9ea;
+  margin-right: 2rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.switch.player-active {
+  background-color: #56b9ea;
+  color: white;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 2rem;
+}
+
+.column {
+  width: 73px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  height: 73px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 50px;
+}
+
+.result-msg {
+  border-radius: 5px;
+  padding: 25px;
+  color: #56b9ea;
+  width: 330px;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  bottom: 10%;
+  display: none;
+}
+
+.result-msg button {
+  background-color: #56b9ea;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+}
